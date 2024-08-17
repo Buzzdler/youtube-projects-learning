@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 2rem;
+    background: black;
+    color: aliceblue;
+}
+p {
+    font-size: 3rem;
+}
+.js {
+    font-family: fantasy;
+    color: yellow;
+}
+.typed-text {
+    color: aqua;
+}
+.cursor {
+    background: red;
+}
