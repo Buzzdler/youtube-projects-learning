@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1608792992053-f397e328a56d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family: fantasy;
+}
+
+.main {
+    padding: 5px 0;
+    text-align: center;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    border-radius: 5px;
+    padding: 1rem 10rem;
+    outline: none;
+    margin-bottom: 3px;
+    background: transparent;
+    border: 2px solid black;
+
+}
+
+#selectOp {
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    border: 2px solid white;
+    border: none;
+    cursor: pointer;
+}
+#btn {
+    border: none;
+    background: transparent;
+    font-family: fantasy;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
