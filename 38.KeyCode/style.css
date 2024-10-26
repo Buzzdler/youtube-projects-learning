@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(black, white);
+}
+
+#insert {
+    background-color: black;
+    padding: 50px;
+    /* border-radius: 10px; */
+    box-shadow: rgba(8, 8, 8, 0.4) -5px 5px, rgba(1, 1, 1, 0.3) -10px 10px, rgba(4, 4, 4, 0.2) -15px 15px, rgba(7, 7, 7, 0.1) -20px 20px, rgba(8, 8, 8, 0.05) -25px 25px;
+
+.key {
+    border: 2px solid red;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black ;
+    display: inline-flex;
+    align-content: center;
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+    position: relative;
+}
+/* JS */
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
