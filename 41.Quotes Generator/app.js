@@ -4,6 +4,12 @@ const authorOutput = document.getElementById("authorOutput");
 
 generateQuoteBtn.addEventListener("click", generateQuote);
 
+function generateQuote() {
+  let random = Number.parseInt(Math.random() * arryOfQuotes.length + 1);
+  quoteOutput.innerHTML = `<span>${arryOfQuotes[random].quote}</span>`;
+  authorOutput.innerHTML = `<small>-${arryOfQuotes[random].author}-</small>`;
+}
+
 const arryOfQuotes = [
   {
     author: "Albert Einstein",
@@ -36,8 +42,4 @@ const arryOfQuotes = [
   },
 ];
 
-function generateQuote() {
-  let random = Number.parseInt(Math.random() * arryOfQuotes.length + 1);
-  quoteOutput.innerHTML = `<span>${arryOfQuotes[random].quote}</span>`;
-  authorOutput.innerHTML = `<small>-${arryOfQuotes[random].author}-</small>`;
-}
+
