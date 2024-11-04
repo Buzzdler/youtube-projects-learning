@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(28, 28, 35);
+}
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    /* border: 2px solid white; */
+    width: 170px;
+    height: 100px;
+    margin: 20px;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.CornflowerBlue {
+    background-color: CornflowerBlue;
+}
+.Chartreuse {
+    background-color: Chartreuse;
+}
+.DodgerBlue {
+    background-color: DodgerBlue;
+}
+.DarkSlateBlue {
+    background-color: DarkSlateBlue;
+}
+.red {
+    background-color: red;
+}
+.Turquoise {
+    background-color: Turquoise;
+}
