@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.panel-container {
+    background-color: rgb(165, 162, 162);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 700px;
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+.ratings-container {
+    display: flex;
+    margin: 20px 0;
+}
+.rating {
+    flex: 1;
+    margin: 10px 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+.rating:hover,
+.rating.active {
+    border-radius: 10px;
+    background-color: rgb(141, 132, 132);
+    transition: 0.5s ease;
+}
+.rating .icon {
+    width: 40px;
+    font-size: 5rem;
+    margin-right: 10px;
+}
+.rating small {
+    /* color: aliceblue; */
+    font-family: fantasy;
+    font-size: large;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+.btn {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    outline: 0;
+}
+.btn:active {
+    transform: scale(0.98);
+}
+/* JS */
+.heart {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
