@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f3f0;
+}
+.calendar {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    overflow: hidden;
+}
+.month {
+    margin: 0;
+    background-color: rgb(45, 45, 239);
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.day {
+    font-size: 20px;
+    color: rgb(97, 78, 78);
+}
+.day-number {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+.year {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #c64646;
+    font-weight: 500;
+}
