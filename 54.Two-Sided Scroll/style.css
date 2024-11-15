@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.left-slide {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.8s ease-in-out;
+}
+.left-slide > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  /* background-color: black; */
+}
+.left-slide h1 {
+  font-size: 2.5rem;
+}
+.right-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+  /* background-color: slategray; */
+}
+.buttons-container button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+}
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: blue;
+  color: rgb(250, 0, 0);
+  background: transparent;
+  font-size: 30px;
+}
+#down-btn {
+  transform: translateX(-100%);
+}
+#up-btn {
+  transform: translateY(-100%);
+}
+.game-one {
+  background-color: darkcyan;
+}
+.game-two {
+  background-color: rgb(0, 0, 0);
+}
+.game-three {
+  background-color: darkolivegreen;
+}
+.game-four {
+  background-color: darkslateblue;
+}
+.img-one {
+  background: url(pedro.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-two {
+  background: url(witchr.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-three {
+  background: url(diablo.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-four {
+  background: url(path.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
