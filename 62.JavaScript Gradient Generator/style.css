@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    background: black;
+}
+section {
+    margin: 10vh 10vw;
+    display: flex;
+    flex-direction: row;
+}
+.cont {
+    width: 40vw;
+    /* border: 2px solid black; */
+}
+.colors {
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 70px;
+}
+.randomColorBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-left: 3rem;
+    cursor: pointer;
+    border: none;
+}
+#gradient-cont {
+    height: 20rem;
+    width: 20rem;
+}
