@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.empty {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border: 2px solid white;
+  background-color: white;
+}
+.fill {
+  background-image: url("https://files.idyllic.app/files/static/2430542?width=256&optimizer=image");
+  height: 195px;
+  width: 195px;
+  background-size: cover;
+  cursor: pointer;
+}
+/* js */
+.hovered {
+  background-color: green;
+  border: 3px dashed white;
+}
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
