@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: impact;
+}
+.scores-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total-score {
+  margin-right: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+}
+.time {
+  margin-right: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 20, 20);
+  margin-top: 2rem;
+  padding: 20px;
+}
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+/* JS */
+.emoji {
+  background-image: url("https://i.pinimg.com/736x/5a/65/d3/5a65d339c8745ad479a97a89e910dfb7.jpg");
+  background-position: center;
+  background-size: cover;
+}
