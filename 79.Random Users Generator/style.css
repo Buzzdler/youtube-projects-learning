@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+.wrapper,
+.wrapper .img-area {
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.wrapper {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.wrapper .img-area {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-area .inner-area {
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    border-radius: 50%;
+}
+.inner-area img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.wrapper #name {
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0 5px 0;
+    font-family: fantasy;
+}
+.wrapper #btn {
+    position: relative;
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+    margin: 27px 0 15px 0;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.wrapper .horizon {
+    width: 330px;
+    height: 2px;
+    border-width: 0;
+    background-color: red;
+    margin: 10px 0 15px 0px;
+}
+.wrapper .info {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.info p {
+    margin-bottom: 10px;
+}
